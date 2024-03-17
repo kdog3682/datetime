@@ -86,7 +86,3 @@ function dateFromString(s) {
         return new Date(YEAR, MONTH - 1, day, hour)
     }
 }
-
-
-
-console.log(dateFromString('jan'))
